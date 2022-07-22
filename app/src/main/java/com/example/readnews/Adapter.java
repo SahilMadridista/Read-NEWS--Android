@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
@@ -40,6 +42,23 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
          public void onClick(View view) {
 
             Intent intent = new Intent(context,WebViewActivity.class);
+            intent.putExtra("url",modelClassArrayList.get(position).getUrl());
+            context.startActivity(intent);
+
+            holder.mTime.setText("Published at:- " + modelClassArrayList
+                    .get(position).getPublishedAt());
+
+            holder.mAuthor.setText("Published by:- "+ modelClassArrayList
+                    .get(position).getAuthor());
+
+            holder.mHeading.setText(modelClassArrayList.get(position)
+            .getTitle());
+
+            holder.mContent.setText(modelClassArrayList.get(position)
+            .getDescription());
+
+            Glide.with(context).load(modelClassArrayList.get(position)
+            .getUrlToImage()).into(holder.imageView);
 
          }
       });

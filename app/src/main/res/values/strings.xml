@@ -7,7 +7,6 @@
     <string name="health">Health</string>
     <string name="entertainment">Entertainment</string>
     <string name="technology">Technology</string>
-
-    <string name="API_KEY">639d710d5be1491489aa746f1b22251b</string>
+    <string name="web_view_desc">News description</string>
 
 </resources>
