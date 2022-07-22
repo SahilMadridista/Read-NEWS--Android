@@ -8,3 +8,7 @@ Libraries used in Read news-
 
 1) Retrofit ( for fetching API data )
 2) Glide ( for loading image in imageview )
+
+The app screenshots are given below-
+
+![](screenshots/1.jpg)
