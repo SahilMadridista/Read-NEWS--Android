@@ -11,4 +11,9 @@ Libraries used in Read news-
 
 The app screenshots are given below-
 
-<img src="https://github.com/SahilMadridista/Read-NEWS--Android/blob/master/screenshots/1.jpg" width="200" />
+<img src="https://github.com/SahilMadridista/Read-NEWS--Android/blob/master/screenshots/1.jpg" width="250" />
+<img src="https://github.com/SahilMadridista/Read-NEWS--Android/blob/master/screenshots/2.jpg" width="250" />
+<img src="https://github.com/SahilMadridista/Read-NEWS--Android/blob/master/screenshots/3.jpg" width="250" />
+<img src="https://github.com/SahilMadridista/Read-NEWS--Android/blob/master/screenshots/4.jpg" width="250" />
+<img src="https://github.com/SahilMadridista/Read-NEWS--Android/blob/master/screenshots/5.jpg" width="250" />
+<img src="https://github.com/SahilMadridista/Read-NEWS--Android/blob/master/screenshots/6.jpg" width="250" />
